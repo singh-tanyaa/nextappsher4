@@ -4,7 +4,7 @@ import { FaGoogle, FaFacebook, FaEye,FaLock } from "react-icons/fa";
 const HeroSection = () => {
   return (
     <div className="container mx-auto py-24 px-4 lg:px-16 bg-[#f7f5f9] mb-28">
-      {/* Grid container to handle layout */}
+     
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         
         {/* Left Content */}
@@ -38,19 +38,19 @@ const HeroSection = () => {
             </div>
           </section>
 
-          {/* Continue with Google button */}
+         
           <button className="bg-[#f7f5f9] text-base font-bold border-purpleshade border-2 rounded-lg py-2 px-4 mb-4 w-full text-center flex items-center justify-center">
             <FaGoogle className="inline-block mr-2 text-red-500" />
             Continue with Google
           </button>
 
-          {/* Continue with Facebook button */}
+          
           <button className="bg-[#f7f5f9] text-base font-bold border-purpleshade border-2 rounded-lg py-2 px-4 mb-4 w-full text-center flex items-center justify-center">
             <FaFacebook className="inline-block mr-2 text-blue-600" />
             Continue with Facebook
           </button>
 
-          {/* Connect with section */}
+          
           <div className="flex items-center mb-4">
             <div className="border-t border-gray-400 flex-1"></div>
             <p className="mx-4 text-gray-600 font-medium">or connect with</p>
@@ -68,9 +68,9 @@ const HeroSection = () => {
           </div>
           <div className="text-gray-600 text-xs text-right">Password strength</div>
 
-          {/* Remember me checkbox and Forgot password */}
+        
           <div className="flex items-center mb-4 md:hidden">
-  {/* Hidden on desktop (md and above) */}
+ 
   <input type="checkbox" id="remember-me" className="mr-2" />
   <label htmlFor="remember-me" className="text-gray-600 text-sm">Remember me</label>
   <a href="#" className="ml-auto text-gray-600 text-sm flex items-center">
@@ -81,18 +81,16 @@ const HeroSection = () => {
 </div>
   
 
-   {/* Terms and policy paragraph */}
+ 
    <p className="text-xs text-gray-600 mb-2 hidden md:block">
             By continuing, you agree to our <span className='text-sm font-medium text-black'>Terms of Service</span> and <span className='text-sm font-medium text-black'>Privacy Policy.</span>
           </p>
 
-          {/* Agree and Continue button */}
+        
           <button className="bg-[#8064A2] text-white rounded-lg py-2 px-4 w-full mb-4 hidden md:block">Agree and Continue</button>
          
           <button className="bg-[#8064A2] text-white rounded-lg py-2 px-4 w-full mb-4 block md:hidden"> Continue</button>
 
-          {/* Agree and Continue button (removed from desktop view) */}
-          {/* <button className="bg-[#8064A2] text-white rounded-lg py-2 px-4 w-full mb-4">Agree and Continue</button> */}
         </div>
         <img src="/img.svg" alt="Image" className="block md:hidden w-full h-auto mb-4 mx-auto" />
 

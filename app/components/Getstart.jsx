@@ -11,14 +11,14 @@ const Getstart = () => {
 
         <button className="bg-purpleshade text-white w-[115px] h-[30px] mt-4 font-semibold rounded-md">Get Started</button>
         <h2 className="text-black text-lg mt-4">Explore our community!</h2>
-        {/* Added heading below button */}
+      
         <div className="mt-10 lg:mt-0 lg:ml-4">
         <img
           src="/groupimg.svg"
           alt="Illustration"
           className="w-full max-w-[360px] lg:max-w-none h-auto mt-48"
         />
-        {/* Added SVG image below the button and heading */}
+      
       </div>
      
       </div>

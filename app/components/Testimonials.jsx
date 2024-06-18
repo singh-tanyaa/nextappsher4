@@ -3,7 +3,7 @@ import React from 'react';
 const Testimonials = () => {
   return (
     <div className='container mt-20 mx-auto px-4 md:px-20 bg-[#f7f5f9] md:mt-14 pt-14'>
-      {/* Flex container for header */}
+      
       <div className='flex items-center justify-center md:justify-start md:mb-4'>
         <img
           src="/Testimonials.svg"
@@ -18,7 +18,7 @@ const Testimonials = () => {
       </p>
 
       <div className="flex flex-col md:flex-row items-center md:justify-start mb-4">
-        {/* Audio track image */}
+      
         <img
           src="/audiotrack.svg"
           alt="Audio Track"
@@ -37,12 +37,7 @@ const Testimonials = () => {
         </div>
       </div>
 
-      {/* Hidden Play button section for future use */}
-      {/* <div className="flex items-center justify-center mt-4 md:mt-8">
-        <div className="flex items-center justify-center mr-4">
-          <img src="play-button.svg" alt="Play" className="w-12 h-12" />
-        </div>
-      </div> */}
+     
     </div>
   );
 };
