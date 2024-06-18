@@ -40,7 +40,7 @@
              <input
                type="search"
                placeholder="Search"
-               className="bg-white h-10 px-5 pr-10 rounded-full text-sm focus:outline-none w-[300px] h-[40px] border border-gray-300"
+               className="bg-white  px-5 pr-10 rounded-full text-sm focus:outline-none w-[300px] h-[40px] border border-gray-300"
              />
              <MagnifyingGlassIcon className="w-5 h-5 absolute right-0 top-0 mt-3 mr-4 text-gray-600" />
            </div>
