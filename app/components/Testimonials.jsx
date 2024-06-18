@@ -2,7 +2,7 @@ import React from 'react';
 
 const Testimonials = () => {
   return (
-    <div className='container mt-20 mx-auto px-4 md:px-20 bg-[#f7f5f9] md:mt-40 pt-14'>
+    <div className='container mt-20 mx-auto px-4 md:px-20 bg-[#f7f5f9] md:mt-14 pt-14'>
       {/* Flex container for header */}
       <div className='flex items-center justify-center md:justify-start md:mb-4'>
         <img
